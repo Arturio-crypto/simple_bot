@@ -10,7 +10,7 @@ logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s",
 
 #Функция на ответ:
 def greet_user(update, bot):
-    text = 'Вызван/startt'
+    text = 'Start'
     logging.info(text)
     update.message.reply_text(text)
 
